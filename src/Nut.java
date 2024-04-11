@@ -2,7 +2,7 @@ public class Nut {
     private double weight;
 
     public Nut() {
-        this.weight = 12.5;
+        this.weight = Math.random()*(25-5)+5;
     }
 
     public double getWeight() {
